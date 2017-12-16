@@ -16,7 +16,7 @@ var phoneBook = [String: String]()
 
 for i in 0...n - 1 {
     // read contacts into phone book
-    var contact = readLine()!.characters.split(separator: " ").map(String.init)
+    var contact = readLine()!.split(separator: " ").map(String.init)
     phoneBook[contact[0]] = contact[1]
 }
 
