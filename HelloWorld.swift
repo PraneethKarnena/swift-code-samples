@@ -5,7 +5,7 @@ and finally print the value of your variable on a second line.
 
 */
 
-class Solution {
+class HelloWorld {
 
 let inputString = readLine()! // get a line of input from stdin and save it to our variable
 
